@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -k -s \"http://www.signsup.com/caution-signs-2/\")",
+      "Bash(sed \"s|/thumb/|/|\")",
+      "Read(//tmp/**)"
+    ]
+  }
+}
